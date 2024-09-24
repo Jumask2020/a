@@ -1,13 +1,31 @@
-gradle-wrapper.jar
-/.gradle
-/captures/
-/gradlew
-/gradlew.bat
-/local.properties
-GeneratedPluginRegistrant.java
+# System-specific files
+/node_modules/
+/vendor/
+/bower_components/
 
-# Remember to never publicly share your keystore.
-# See https://flutter.dev/to/reference-keystore
-key.properties
-**/*.keystore
-**/*.jks
+# Compiled files
+/build/
+/dist/
+/public/
+
+# IDE-specific files
+/.idea/
+/.vscode/
+
+# Test results
+/test-results/
+/coverage/
+
+# Temporary files
+/*.swp
+/*.bak
+/*.tmp
+*~
+
+# Log files
+*.log
+
+# Specific file patterns (adjust as needed)
+config.json
+secrets.yml
+sensitive_data.txt
